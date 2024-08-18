@@ -5,12 +5,11 @@ data_structure = [
     "Hello",
     ((), [{(2, 'Urban', ('Urban2', 35))}])
 ]
-sum = 0
+
 tuple_ = (list, set, tuple)
 
 
 def calculate_structure_sum(*args):
-    # global sum
     sum = 0
     for i in args:
         if isinstance(i, int):
